@@ -1,0 +1,78 @@
+.card{
+    border: 2px solid salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: aqua;
+   
+}
+h1{
+    color: blue;
+    padding: 5px;
+}
+h3{
+    outline-style: dashed solid;
+    list-style: decimal;
+    font-style: oblique;
+    color: rgb(172, 141, 17);scrollbar-highlight-color: aqua;
+}
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.text{
+    font-style: italic;
+    color: darkgreen;
+}
+
+.container{
+    
+    width: 350%;
+    margin: auto;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.name{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.email{
+    color: rgb(90, 161, 161);
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.btn{
+    all: unset;
+    padding: 5px 10px;
+    border: 1px solid #e2aa5b;
+    cursor: pointer;
+    background-color: #FFECD1;
+    border-radius: 5px;
+
+}
+
+.btn:hover{
+    background-color: #e9b772;
+
+}
+
+.button-group{
+    margin-bottom: 20px;
+}

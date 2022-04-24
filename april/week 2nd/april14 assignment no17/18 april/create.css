@@ -1,0 +1,24 @@
+.one{
+    padding: 100px;
+    background-color: aqua;
+    margin: 100px;
+    border: 100ch;
+    animation: alternate-reverse;
+    color: blue;
+    columns: 80px;
+    flex-direction: column-reverse;
+    font-style: italic;
+    
+}
+.two{
+padding: 100px;
+margin: 100px;
+border: 100px;
+color: brown;
+background-color: chartreuse;
+
+}
+.btn{
+    columns: wine red;
+    color: soild red;
+}
